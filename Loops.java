@@ -5,13 +5,14 @@ public class Loops {
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int counter = 0;
-
-        while (counter <= n) {
-            System.out.println(counter);
-            counter++;
+        int i = 0;
+        int sum = 0 ;
+        while (i <= n) {
+           
+            sum = sum + i ;
+            i++;    
         }
-
+        System.out.println(sum);
     }
 
 }
