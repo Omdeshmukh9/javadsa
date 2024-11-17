@@ -9,7 +9,7 @@ public class PrimeNum {
             System.out.println("2 is a prime number");
         } else {
             boolean isPrime = true;
-            for (int i = 2; i <= num - 1; i++) {
+            for (int i = 2; i <= Math.sqrt(num); i++) {
                 if (num % i == 0) {
                     isPrime = false;
                 }
